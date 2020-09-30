@@ -10,11 +10,6 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
 
-test('should render Header correctly', () => {
-    const wrapper = shallow(<Header />);
-    expect(wrapper).toMatchSnapshot();
-});
-
 const store = configureStore();
 
 const jsx = (
